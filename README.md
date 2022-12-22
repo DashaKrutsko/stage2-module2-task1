@@ -9,7 +9,7 @@
 An application has a starter page with 2 buttons: "Add User" and "Users". You need to create handlers for them. To achieve that create 2 servlets:
 
 - AddUserServlet
-- GetUsersServlet
+- com.example.servlet.AddUserServlet.GetUsersServlet
 
 ## Details
 
@@ -24,7 +24,7 @@ An application has a starter page with 2 buttons: "Add User" and "Users". You ne
    - return request attribute "user"
    - navigate to /add page
 
-**GetUsersServlet** should:
+**com.example.servlet.AddUserServlet.GetUsersServlet** should:
 
 1. be placed in `com.example.servlet` package
 2. have url `/users`

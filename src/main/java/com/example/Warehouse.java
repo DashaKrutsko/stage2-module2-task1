@@ -8,7 +8,8 @@ public class Warehouse {
     private static Warehouse instance;
     private final Set<User> users = new HashSet<>();
 
-    private Warehouse() {}
+    private Warehouse() {
+    }
 
     public static Warehouse getInstance() {
         if (instance == null) {
